@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Cristian</title>
+
+    <!--? Arquivo CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!--? Arquivo JavaScript -->
+    <script src="./script.js"></script>
+
+    <!--? Arquivo Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <!--? Font Awesome-->
+    <script src="https://kit.fontawesome.com/bccb500f78.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--? Menu Fixado no topo -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cristian</a>
+            <button 
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-targer="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Navegação do toggle"
+                >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Qualificações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Footer</a>
+                    </li>
+                </ul> 
+            </div>
+        </div>
+    </nav>
+
+    <!--? Hero Section -->
+    <section class="bgimage" id="inicio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="glass">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 heroText">
+                        <h1 class="heroTitle">Olá, me chamo Cristian</h1>
+                        <p class="heroDesc">Estudante de Ciências da Computação</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--? About Section -->
+    <section id="sobre">
+        <div class="container mt-4 pt-4">
+            <h2 class="text-center">Sobre Mim</h2>
+            <div class="row mt-4">
+                <!--? Imagem Sobre Mim-->
+                <div class="col-lg-4">
+                    <img src="images/meuRosto.jpg" alt="Sobre mim" class="aboutImage"/>
+                </div>
+                <!--? Informações Sobre Mim -->
+                <div class="col-lg-8">
+                    <p class="sobreText">Sou Cristian, estudante de Ciências da Computação, apaixonado por tecnologia e entusiasmado com o desenvolvimento frontend. Embora minha jornada acadêmica esteja em andamento, estou determinado a transformar minha paixão em uma carreira. Minha busca por aprendizado tem me fornecido conhecimentos em programação, enquanto minhas habilidades em HTML, CSS e JavaScript me permitem explorar a criação de interfaces interativas e funcionais. Estou ansioso para contribuir para a indústria e crescer como um profissional de tecnologia.</p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Nome: Cristian da Silva de Matos</li>
+                                <li>Idade: 28 Anos</li>
+                                <li>Estudande - Ciências da Computação</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--? Parágrafo + infos -->
+                    <div class="row mt-3">
+                        <p class="sobreText">Atualmente, trabalho em uma empresa do ramo alimentício, de comércio, transporte e fornecimento de frutas aos supermercados da região metropolitana de Porto Alegre. Mantenho minha paixão pela Ciência da Computação e busco ativamente uma oportunidade para ingressar no universo da programação. Minha formação e vontade de explorar o campo tecnológico são os pilares que impulsionam minha transição de carreira.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container">
+            <h2 class="text-center">Qualificações</h2>
+
+        <!--? Service or skill section -->
+            <!--?! Para alterar a posição e a quantia de cards, observar aula 16 aos 1:45:00 onde o professor explica como -->
+        <!--? Uma Linha -->
+        <div class="row">
+            <!--? Uma Coluna -->
+            <div class="col-lg-6 mt-4">
+              <div class="card servicesText text-center d-flex align-items-center justify-content-center">
+                <div class="cardBody">
+                  <i class="fa-solid fa-check servicesIcon"></i>
+                  <h3 class="cardTitle mt-3">Codifica +PraTi</h3>
+                  <p class="cardText mt-3 text-center">
+                    Curso do Zero ao Primeiro site da escola Codifica +Pra ti, onde desenvolvemos projetos com HTML, CSS e JavaScript voltado ao frontend
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--? Outra Coluna -->
+            <div class="col-lg-6 mt-4">
+              <div class="card servicesText text-center d-flex align-items-center justify-content-center">
+                <div class="cardBody">
+                  <i class="fa-solid fa-check servicesIcon"></i>
+                  <h3 class="cardTitle mt-3">Ciências da Computação</h3>
+                  <p class="cardText mt-3 text-center">
+                    Atualmente cursando o 4º semestre de bacharelado em Ciências da Computação na instituição UniRitter de Porto Alegre, Rio Grande do Sul
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!--? Outra Linha -->
+          <!-- <div class="row">
+            
+            <div class="col-lg-12 mt-4">
+              <div class="card servicesText">
+                <div class="cardBody">
+                  <i class="fa-solid fa-check servicesIcon"></i>
+                  <h3 class="cardTitle mt-3">Desenvolmimento de sites</h3>
+                  <p class="cardText mt-3">
+                    Exmplo de trabalhos feitos no desenvolvimento de sites
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div> -->
+        </div>
+      </section>
+    
+            <!--? contact Section-->
+      <section id="contato">
+        <div class="container mt-3 mb-3 contactContent">
+            <h2 class="text-center">Contate-me</h2>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.840362755242!2d-51.12652002370999!3d-29.984017474954047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951976c26622332f%3A0x25e91ee108b93cad!2sAv.%20Faria%20Lobato%2C%201120%20-%20Sarandi%2C%20Porto%20Alegre%20-%20RS%2C%2091110-460!5e0!3m2!1spt-BR!2sbr!4v1691113400930!5m2!1spt-BR!2sbr" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card servicesText text-center d-flex align-items-center justify-content-center">
+                                <div class="cardBody">
+                                    <i class="fa-brands fa-whatsapp contactIcon"></i>
+                                    <h3>WhatsApp</h3>
+                                    <p>(51) 9 9394-2379</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card servicesText text-center d-flex align-items-center justify-content-center">
+                                <div class="cardBody">
+                                    <i class="fa-solid fa-envelope contactIcon"></i>
+                                    <h3>E-Mail</h3>
+                                    <p>eucrismatos@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4 text-center">
+                        <div class="col-lg-3">
+                            <a href="https://github.com/cristiawn" target="_blank">
+                                <i class="fa-brands fa-github contactIcon"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="https://www.linkedin.com/in/cristian-matos-6b5629260/" target="_blank">
+                                <i class="fa-brands fa-linkedin contactIcon"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook contactIcon"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="https://www.instagram.com/cristiawn/" target="_blank">
+                                <i class="fa-brands fa-instagram contactIcon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--? Portfolio Section-->
+      <section id="portfolio">
+        <div class="container mt-3">
+            <h2 class="text-center mb-3">Meus Projetos</h2>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img class="card-img-top" src="portfolio/thumbs/estanteThumb.png" alt="Card Estante" style="width: 100%;">
+                        <div class="cardBody">
+                            <h3 class="cardTitle">Projeto Estante de Livros</h3>
+                            <p class="cardText text-center"> Primeiro projeto com HTML e CSS, desenvolvido no curso Do Zero Ao Primeiro Site, ofertado pelo grupo +PraTi. Neste projeto, dei meus primeiros passos com o desenvolvimento web e trabalhei com divisões, imagens, listas ordenadas e tabelas.</p>
+                            <div class="text-center mb-3">
+                                <a href="portfolio/Estante/estande.html" target="_blank">Clique AQUI para conferir o Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img class="card-img-top" src="portfolio/thumbs/locadoraThumb.png" alt="Card Locadora" style="width: 100%;">
+                        <div class="cardBody">
+                            <h3 class="cardTitle">Projeto Locadora 2000</h3>
+                            <p class="cardText text-center">Este foi meu segundo projeto, onde fizemos uma estante de livros com alguns modelos detalhados em planilhas específicas por exemplo: Data, Autor, Idioma Original, Gênero, etc. Neste projeto também havia um espaço para o usuário cadastrar um novo livro.</p>
+                            <div class="text-center mb-3">
+                                <a href="portfolio/Locadora/index.html" target="_blank">Clique AQUI para conferir o Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img class="card-img-top" src="portfolio/thumbs/marioThumb.png" alt="Card Mario" style="width: 100%;">
+                        <div class="cardBody">
+                            <h3 class="cardTitle">Projeto Game Mário Web</h3>
+                            <p class="cardText text-center">Terceiro projeto, fizemos um webgame do Mário, usando de referência o famoso game do navegador Google Chrome. HTML, CSS e Script com arrow function foram utilizados neste projeto.</p>
+                            <div class="text-center mb-3">
+                                <a href="portfolio/Mario/index.html" target="_blank">Clique AQUI para conferir o Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img class="card-img-top" src="portfolio/thumbs/cartaoThumb.png" alt="Card Cartão" style="width: 100%;">
+                        <div class="cardBody">
+                            <h3 class="cardTitle">Projeto Cartão Virtual</h3>
+                            <p class="cardText text-center">Neste projeto, construímos um cartao virtual interativo bem simples. Este cartão apresenta meu nome e alguns dados de endereços eletrônicos, como Instagram e Github por exemplo. </p>
+                            <div class="text-center mb-3">
+                                <a href="portfolio/Cartao/index.html" target="_blank">Clique AQUI para conferir o Projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--? Footer -->
+      <footer class="text-center text-white" id="footer">
+        <div class="container p-4 pb-0">
+            <div class="row mt-4 mb-4">
+                <div class="col-lg-3">
+                    <a href="https://github.com/cristiawn" target="_blank"><i class="fa-brands fa-github footerIcon"></i></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="https://www.linkedin.com/in/cristian-matos-6b5629260/" target="_blank"><i class="fa-brands fa-linkedin footerIcon"></i></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook footerIcon"></i></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="https://www.instagram.com/cristiawn/" target="_blank"><i class="fa-brands fa-instagram footerIcon"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 footerDev">
+            <p class="pfooter">Desenvolvido por Cristian Matos</p>
+        </div>
+      </footer>
+</body>
+</html>
