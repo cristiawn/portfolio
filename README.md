@@ -1,4 +1,5 @@
 Portfólio Pessoal Cristian Matos
+
 Este é o repositório de um projeto de portfólio pessoal. O projeto é uma página web que serve como um portfólio online para exibir informações sobre mim, minhas qualificações, projetos e formas de contato.
 
 Descrição:
@@ -20,9 +21,13 @@ Rodapé: Um rodapé que exibe ícones de redes sociais e informações sobre o d
 
 Tecnologias Utilizadas
 HTML: Linguagem de marcação para estruturar o conteúdo do site.
+
 CSS: Folhas de estilo para a aparência visual do site, incluindo estilos para o layout, cores e tipografia.
+
 JavaScript: Utilizado para funcionalidades interativas, como o menu de navegação responsivo.
+
 Bootstrap: Framework CSS utilizado para melhorar o design responsivo e a aparência do site.
+
 Font Awesome: Biblioteca de ícones utilizada para exibir ícones de redes sociais.
 Uso
 
@@ -33,5 +38,7 @@ Contato
 Para mais informações sobre este projeto ou para entrar em contato comigo, você pode visitar as seguintes redes sociais:
 
 GitHub
+
 LinkedIn
+
 Instagram - @cristiawn
